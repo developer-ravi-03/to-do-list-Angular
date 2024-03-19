@@ -1,0 +1,26 @@
+
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+  }
+  .row {
+    display: table-row;
+  }
+  .cell {
+    display: table-cell;
+    padding: 8px;
+    width: 24%;
+    border: 1px solid #000;
+  }
+
+  .cell:first-child {
+    width: 4%; /* Adjust this value as needed */
+  }
+
+  .cell:nth-child(5) {
+    text-align: center; /* Align the content of the third cell to center */
+  }
+  
